@@ -1,0 +1,18 @@
+Emacs VSQL mode
+
+Instructions:
+  Download vsql.el from github
+
+  Add this to your .emacs file (pointing at wherever you downloaded
+  vsql.el):
+
+;; vsql specific emacs SQL mode: 
+;; run via M-x sql-vertica 
+(load “vsql") 
+
+  Invoke the mode with M-x sql-vertica
+
+Future work:
+  Update the keywords list for the vertica specific dialect, and maybe
+  other stuff. Feel free to help out!
+
